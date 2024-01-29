@@ -1,0 +1,140 @@
+<html lang="en">
+
+<head>
+    <title>Create an account</title>
+    <script src="https://kit.fontawesome.com/2cca868f52.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    ::placeholder {
+        color: white;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(background.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .box1 {
+        width: 400px;
+        background: transparent;
+        border: 2px solid rgb(188, 240, 253);
+        backdrop-filter: blur(4px);
+        color: #fff;
+        border-radius: 20px;
+        padding: 30px 40px;
+    }
+
+    .box1 h1 {
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .box1 .input-box {
+        position: relative;
+        width: 100%;
+        margin: 3px;
+        height: 50px;
+    }
+
+    form input {
+        margin-bottom: 20px;
+        width: 90%;
+        color: white;
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #fff;
+        outline: none;
+    }
+
+    .button {
+        width: 100%;
+        height: 35px;
+        background: transparent;
+        border: 1px solid lightgray;
+        border-radius: 40px;
+        cursor: pointer;
+        font-size: 16px;
+        color: #ffffff;
+        transition: .3s;
+
+    }
+
+    button:hover {
+        background-color: rgb(0, 153, 255);
+        color: rgb(0, 255, 234);
+    }
+
+    label {
+        margin: 0;
+        display: flex;
+        font-size: 14px;
+    }
+
+    .box input {
+        margin-right: 8px;
+        width: 15px;
+        justify-content: space-between;
+        display: flex;
+    }
+    .r-f a {
+        margin-left: 5px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    a {
+        color: yellow;
+        text-decoration: none;
+    }
+    a:hover {
+        color: rgb(0, 255, 136);
+        animation: .4s;
+    }
+</style>
+
+<body>
+    <div class="box1">
+        <form action="loginpage.html">
+            <h1> Create an account </h1>
+            <div class="input-box">
+                <input type="email" placeholder="Email" required>
+                <i class="fa fa-envelope"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class='fas fa-user-alt'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <i class='fas fa-key'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Confirm password" required>
+                <i class='fas fa-key'></i>
+            </div>
+            <div class="r-f">
+                <label for="login"> Already have an account? <a href="loginpage.html">Log in</a></label>
+            <div class="box">
+                <label for="agree"><input type="checkbox" required> Agree of terms and conditions</label>
+            </div>
+            <div class="button">
+                <button type="submit" class="button"> Create </button>
+            </div>
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>

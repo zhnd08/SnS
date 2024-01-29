@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <style>
+        body {
+            font-family: "poppins" sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: black;
+            color: #00ce67;
+            padding: 0;
+            text-align: center;
+        }
+
+        .head {
+            background-image: url('rd2.jpg');
+            background-size: cover;
+            backdrop-filter: blur(24px);
+            box-sizing: border-box;
+            font-family: "Rajdhani";
+            color: #fff;
+            padding: 4px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        nav {
+            margin-left: 30px;
+            margin-right: 20px;
+            color: black;
+            text-align: center;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a:hover {
+            color: cyan;
+        }
+
+        nav a:hover:active {
+            color: red;
+        }
+
+        .nl {
+            display: flex;
+        }
+
+        .nl a {
+            color: yellow;
+            text-decoration: none;
+            padding: 13px;
+            margin-right: 15px;
+            font-size: 15px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        header h1 {
+            padding-left: 4%;
+            margin: 0;
+            color: cyan;
+        }
+
+        h1:hover {
+            transform: scale(1.1);
+            color: rgb(0, 233, 12);
+            animation: 5s;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <marquee>
+            <p>THIS IS FOR EDUCATIONAL PURPOSES ONLY! DCIT 21 FINALS </p>
+        </marquee>
+    </header>
+    <header class="head" id="head">
+        <h1>SnS</h1>
+        <nav>
+            <div class="nl">
+                <a href="home.html" target="FrmeDisp"> HOME </a>
+                <a href="schedule.html" target="FrmeDisp"> SCHEDULE </a>
+                <a href="about.html" target="FrmeDisp"> ABOUT US</a>
+                <a href="contact.html" target="FrmeDisp"> CONTACT US</a>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
